@@ -1,0 +1,41 @@
+.card {
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  border: solid black;
+  border-radius: 8px;
+}
+.card:hover {
+  transform: translateY(-10px) translateX(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-color: aquamarine;
+}
+.card img {
+  border-radius: 5px;
+}
+
+.enemyArea .card {
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  border: solid black;
+  border-radius: 8px;
+}
+.enemyArea .card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-color: red;
+}
+
+.resetBtn {
+  cursor: pointer;
+  transform: scale(2);
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+.gameContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
