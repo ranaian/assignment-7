@@ -9,13 +9,12 @@ import rockImg from "./assets/rock.PNG";
 import scissorsImg from "./assets/scissors.PNG";
 import ComputerThrow from "./ComputerThrow.jsx";
 
-const Choices = [
-  { name: "Rock", img: rockImg },
-  { name: "Paper", img: paperImg },
-  { name: "Scissors", img: scissorsImg },
-];
-
 function App() {
+  const Choices = [
+    { name: "Rock", img: rockImg },
+    { name: "Paper", img: paperImg },
+    { name: "Scissors", img: scissorsImg },
+  ];
   const [isDeciding, setIsDeciding] = useState(false);
   const [PlayerScore, setPlayerScore] = useState(0);
   const [ComputerScore, setComputerScore] = useState(0);
