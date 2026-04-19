@@ -26,3 +26,6 @@ I initially structured everything inside app.jsx and moved the pieces into separ
 logic was sound. This made me have to figure out what information needed to be passed to each component in the main app and where components needed to be imported, instead of just importing everything to main.
 I had some difficulty figuring out the exact game logic but after some brief testing it all worked once i made
 sure that everything was being passed around the code correctly.
+
+## video link 
+> https://drive.google.com/file/d/1TZzs-maOglOmuEz3oG8Z4oFWubmrQOKb/view?usp=sharing
